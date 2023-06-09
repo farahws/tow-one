@@ -1,2 +1,2 @@
 # tow-one
-codingan project SE 2023, html - css saja. Travel On The Way.
+Codingan project SE 2023, html - css + js. Travel On The Way.
