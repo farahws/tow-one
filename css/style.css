@@ -87,13 +87,60 @@ section{
     width: 100%;
     position: relative;
     display: grid;
-    gap: 2rem;
 }
 
 .home-text{
     font-size: var(--big-font);
-    line-height: 75px;
-    margin-bottom: 2rem;
+    line-height: 155px;
+    margin-bottom: 50px;
     text-align: center;
     padding-top: 53px;
+}
+
+.home-text .btn{
+    display: inline-block;
+    padding: 12px 24px;
+    background: var(--button-color);
+    color: var(--main-color);
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5rem;
+    transition: all .38s ease;
+}
+
+.home-text .btn:hover{
+    letter-spacing: 1px;
+}
+
+header.sticky{
+    padding: 10px 15%;
+    background: var(--bg-color);
+    box-shadow: 0px 4px 15px rgb(0 0 0 / 8%);
+}
+
+.main-text h2{
+    font-size: var(--h2-font);
+    margin-bottom: 10px;
+}
+
+.main-text p{
+    font-size: var(--p-font);
+    font-weight: 500;
+    color: var(--second-color);
+    line-height: 32px;
+}
+
+.offer-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    gap: 2rem;
+    align-items: center;
+    margin-top: 4rem;
+    cursor: pointer;
+}
+
+.row img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
